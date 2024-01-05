@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body{
+        background-color: rgb(60, 73, 73);
+    }
+        .topnav{
+            text-align: center;
+            height: 10px;
+            padding-bottom: 32px;
+        }
+        body div a{
+            font-family: Cochin;
+            color:brown;
+            text-decoration: none;
+        }
+        ul{
+          list-style-type: none;
+          font-size: 26px;
+          background-color: blanchedalmond;
+          padding: 12px;
+        }
+        li{
+          display: inline;
+          padding: 16px 45px;
+        }
+        li a:hover{
+            color: chocolate;
+            text-shadow: 1px 1px 3px black;
+
+        }
+        form{
+            color: azure;
+            font-size: 22px;
+        }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+</style>
+
+<script>
+
+const element=document.getElementById('multi');
+element.addEventListener('click', function handleClick(event)){
+        element.remove();
+
+}
+</script>
+
+<head>
+<h1 style="font-family: Cochin;color: rgb(207, 204, 165); text-shadow: 1px 1px 2px black, 0 0 25px sienna; font-size: 52px;text-align: center; padding-top: 20px;">FlavourCode Studios</h1>
+</head>
+
+<body>
+
+<div class="topnav">
+    <ul>.
+        <li><a href="E:\IWD_mini_project\multicuisine.html" target="_blank" id="multi">Multicuisine</a></li>
+        <li><a href="E:\IWD_mini_project\korean.html" target="_blank" id="korean">Korean</a></li>
+        <li><a href="E:\IWD_mini_project\Chinese.html" target="_blank" id="chinese">Chinese</a></li>
+        <li><a href="E:\IWD_mini_project\japanese.html" target="_blank" id="japanese">Japanese</a></li>
+        <li><a href="E:\IWD_mini_project\european.html" target="_blank" id="european">European</a></li>
+    </ul>
+</div>
+
+<br><br>
+
+<section>
+    <p id="text" style="font-size: 26px; margin: 25px; font-family: Cochin; text-align: justify; color:blanchedalmond; text-shadow:1px 1px 2px black, 0 0 10px sienna, 0 0 5px cornsilk;">Welcome to FlavourCode Studios, where culinary artistry meets homely charm. Our restaurant invites you on a gastronomic journey, offering a warm and welcoming ambiance that feels just like home. At FlavourCode, we pride ourselves on a diverse menu that tantalizes taste buds with a symphony of flavors from around the world. Whether you crave the comfort of homestyle cooking or adventurous global cuisines, our chefs craft each dish with passion and precision. Join us for an unforgettable dining experience, where the delightful fusion of flavors and the cozy atmosphere create a culinary haven for food enthusiasts.</p>
+
+    <div class="row">
+        <div class="column">
+            <img src="E:\IWD_mini_project\1_home.jpg" width="410" height="400">
+        </div>
+        <div class="column">
+            <img src="E:\IWD_mini_project\3_home.jpg" width="410" height="400">
+        </div>
+        <div class="column">
+            <img src="E:\IWD_mini_project\2_home.jpg" width="410" height="400">
+        </div>
+    </div>
+
+<br><br><br>
+
+</section>
+
+<form>
+    <fieldset><legend>Personal Information</legend><br>
+        Name:
+        <input type="text" name="fname" placeholder="Your first name"><br><br>
+        Surname:
+        <input type="text" name="lname" placeholder="Your last name"><br><br>
+        Phone number:
+        <input type="text" name="Phone" placeholder="Your Phone number"><br><br>
+        Email ID:
+        <input type="text" name="Email" placeholder="Your Email id"><br>
+        <p><form name="input" action="html_form_action.asp" method="get">
+        <button type="button" onclick="myButton()">Submit
+            <script src="scripts.js"></script></button><input type="reset" name="Reset" >
+        <p id="message"></p>
+          
+        </form>
+        </p>
+      </fieldset>
+</form>
+
+<footer style="color: azure;">
+    <br>
+    <p>Created by:<br>
+    &nbsp;&nbsp;S Anannya <br> &nbsp;&nbsp;Rithika Vinod</p>
+</footer>
+
+</body>
+  
+</html>
